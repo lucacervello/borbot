@@ -2,6 +2,10 @@
 
 Hi, this is the code for the _borbot_.
 
+## How am I ?
+
+[![Build Status](https://travis-ci.org/lucacervello/borbot.svg?branch=master)](https://travis-ci.org/lucacervello/borbot)
+
 ## Why Borbot ?
 
 Because is fun.
