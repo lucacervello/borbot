@@ -14,4 +14,5 @@
   :main ^:skip-aot borbot.core
   :target-path "target/%s"
 
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all
+                       :uberjar-name "borbot.jar"}})
