@@ -1,36 +1,37 @@
-# borbot
+# Borbot
 
-FIXME: description
+Hi, this is the code for the _borbot_.
+
+## Why Borbot ?
+
+Because is fun.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+No installation is required, the _borbot_ already live is own life.
 
 ## Usage
 
-FIXME: explanation
+[Just chat with me](t.me/Borborborborbot)
 
-    $ java -jar borbot-0.1.0-standalone.jar [args]
+## Contributing
 
-## Options
+### You know _borbot_'s master ?
 
-FIXME: listing of options this app accepts.
+If you know _borbot_'s master you can create a PR with an awesome new quote.(_borbot_ love new quote!).
 
-## Examples
+### You have awesome new ideas ?
 
-...
+Share with us. Open a new issue.
 
-### Bugs
+### Found a bug ?
 
-...
+Share with us. Open a new issue.
 
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Luca Cervello
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
