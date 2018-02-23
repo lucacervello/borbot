@@ -12,7 +12,7 @@ No installation is required, the _borbot_ already live is own life.
 
 ## Usage
 
-[Just chat with me](t.me/Borborborborbot)
+[Just chat with me](https://telegram.me/Borborborborbot)
 
 ## Contributing
 
