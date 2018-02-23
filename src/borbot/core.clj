@@ -4,10 +4,10 @@
             [environ.core :refer [env]]
             [morse.handlers :as h]
             [morse.polling :as p]
-            [morse.api :as t])
+            [morse.api :as t]
+            [borbot.db :as borbot-db])
   (:gen-class))
 
-; TODO: fill correct token
 (def token (env :telegram-token))
 
 
@@ -16,12 +16,17 @@
   (h/command-fn "start"
     (fn [{{id :id :as chat} :chat}]
       (println "Bot joined new chat: " chat)
-      (t/send-text token id "Welcome to borbot!")))
+      (t/send-text token id "Ciao, io sono BORBOT. \n Fedele seguace del Maestro Andreetta. \n brborbrrborbrbro.")))
 
   (h/command-fn "help"
     (fn [{{id :id :as chat} :chat}]
       (println "Help was requested in " chat)
       (t/send-text token id "Help is on the way")))
+
+  (h/command-fn "cit"
+                (fn [{{id :id :as chat} :chat}]
+                  (println "Fetching the cit")
+                  (t/send-text token id (borbot-db/random-cit))))
 
   (h/message-fn
     (fn [{{id :id} :chat :as message}]
