@@ -1,4 +1,4 @@
-(defproject borbot "0.2.0-SNAPSHOT"
+(defproject borbot "0.3.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
 
